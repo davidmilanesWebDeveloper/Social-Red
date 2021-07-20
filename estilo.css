@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+}
+
+.banner {
+    width: 100%;
+    height: 640px;
+    animation: banner 20s infinite linear alternate;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #777bc2;
+}
+
+@keyframes banner {
+
+    0%, 20% {
+        background-image: url(../image/logo_facebook-150x150.png);
+    }
+
+    21%,41% {
+        background-image: url(../image/youtube-300x191.png);
+    }
+
+    42%,62% {
+        background-image: url(../image/Google-300x101.png);
+    }
+
+    63%,83% {
+        background-image: url(../image/twitter-3-300x300.png);
+    }
+
+    84%,100% {
+        background-image: url(../image/instagram-1-150x150.png);
+    }
+
+}
+
+.capa {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.info {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    max-width: 600px;
+}
+
+.info h1 {
+    color: #c4d3d4;
+    text-shadow: 0px -15px 2px rgba(0, 0, 0, .7);
+    font-size: 45px;
+    margin-bottom: 4%;
+    letter-spacing: 2px;
+    transition: 3s ease all;
+}
+
+.info p {
+    color: white;
+    font-size: 22px;
+    line-height: 1.7;
+    margin-bottom: 4%;
+    transition: 3s ease all;
+}
+
+.info a {
+    color: #84b2b6;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 15px 35px;
+    background: #777bc2;
+    border-radius: 50px;
+    display: inline-block;
+    transition: 3s ease all;
+}
+
+.info a:hover{
+    background: #41209d;
+}
+
+.introduction {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#photo-short{
+    float: left;
+    margin-right: 3%;
+}
+
+.social {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.social img{
+    float: left;
+    margin-right: 3%;
+}
+
+.message {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.message img{
+    float: left;
+    margin-right: 3%;
+}
+
+.photos {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.photos img{
+    float: left;
+    margin-right: 3%;
+}
+
+.video {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.video img{
+    float: left;
+    margin-right: 3%;
+}
+
+.streaming {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.streaming img{
+    float: left;
+    margin-right: 3%;
+}
+
+.musica {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.musica img{
+    float: left;
+    margin-right: 3%;
+}
+
+.gaming {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.gaming img{
+    float: left;
+    margin-right: 3%;
+}
+
+.gps {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.gps img{
+    float: left;
+    margin-right: 3%;
+}
+
+.forum {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.forum img{
+    float: left;
+    margin-right: 3%;
+}
+
+.cite {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.cite img{
+    float: left;
+    margin-right: 3%;
+}
+
+.work {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.work img{
+    float: left;
+    margin-right: 3%;
+}
